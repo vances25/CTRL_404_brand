@@ -49,12 +49,12 @@ export default function Home() {
     <section id="shop" className={styles.products}>
         <h1>Our Products</h1>
         <div ref={sliderRef} className={`keen-slider ${styles.slider_container}`}>
-          <Item information={'1'}/>
-          <Item information={'2'}/>
-          <Item information={'3'}/>
-          <Item information={'4'}/>
-          <Item information={'5'}/>
-          <Item information={'6'}/>
+          <Item/>
+          <Item/>
+          <Item/>
+          <Item/>
+          <Item/>
+          <Item/>
         </div>
       </section>
 
