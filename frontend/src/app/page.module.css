@@ -1,0 +1,144 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.action{
+  color: white;
+  background: linear-gradient(157deg, #8B3A3A 48%, white 50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  gap: 20vw;
+}
+
+.action img{
+  max-width: 250px;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+}
+
+.action button{
+  background-color: white;
+  height: 50px;
+  border: 4px solid #8B3A3A;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black
+}
+
+
+.action div{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mission{
+  padding: 25px;
+  padding-bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  background-color: white;
+  width: 100%;
+}
+
+.mission h1{
+  font-size: 2em;
+}
+
+.mission p{
+  max-width: 500px;
+  font-size: 1.2em;
+}
+
+.mission img{
+  max-width: 250px;
+  transform: rotate(12deg);
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 250px;
+    
+}
+
+.products h1{
+  font-size: 2em;
+}
+
+
+.slider_container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.contact{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 100%;
+  gap: 24px;
+}
+
+.contact h1{
+  font-size: 1.2em;
+}
+
+.contact input{
+  width: 200px;
+  height: 30px;
+  border: 2px solid #959595;
+  border-radius: 10px;
+}
+
+.contact div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact button{
+  width: 50px;
+  height: 30px;
+  border: 2px solid #959595;
+  border-radius: 9px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .container{
+    text-align: center;
+  }
+  .mission img{
+    max-width: 200px;
+  }
+  .action{
+    flex-direction: column;
+  }
+  .action img{
+    max-width: 200px;
+  }
+  .feature h1{
+    font-size: 20px;
+  }
+}
