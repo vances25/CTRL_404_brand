@@ -2,7 +2,7 @@ import "keen-slider/keen-slider.min.css"
 import styles from "./style.module.css"
 
 
-export default function Item({ information }){
+export default function Item({ }){
     return (
     <>
      <div className={`keen-slider__slide ${styles.slide}`}>
